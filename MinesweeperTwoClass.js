@@ -91,6 +91,7 @@ class SweepView {
     }
 }
 
+//The Minesweeper Model
 class SweepModel {
     constructor (boardSide, bombCount) {
         this.boardSide = boardSide; //The model board is X by X size, where X is the initial boardSide given by the user. This should match the view.
