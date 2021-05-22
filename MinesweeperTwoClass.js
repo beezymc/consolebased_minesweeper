@@ -189,7 +189,7 @@ class SweepModel {
         }
     }
 
-    //this method updates the state of the game to 'lost' or 'won' if either condition is hit:
+    //This method updates the state of the game to 'lost' or 'won' if either condition is hit:
     //the revealed cell is a bomb,
     //or the only cells that remain on the board are bombs.
     updateState = (x, y) => {
@@ -202,7 +202,7 @@ class SweepModel {
 
 }
 
-//initial values; can be changed here if desired. Note that boardSide must be below a certain value (depending on user display) to display properly.
+//Initial values; can be changed here if desired. Note that boardSide must be below a certain value (depending on user display) to display properly.
 const boardSide = 5;
 const bombCount = 1;
 
